@@ -32,6 +32,10 @@ public class menuScript : MonoBehaviour {
 
 	}
 
+	public void BeginGame(){
+		Application.LoadLevel ("Hello world scene");
+	}
+
 	public void ExitPress(){
 		SettingsPressed = false;
 		settingsMenu.gameObject.SetActive (SettingsPressed);
